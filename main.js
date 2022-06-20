@@ -50,10 +50,10 @@ function manipulateData(operation, control) {
 }
 
 //update values function
-function updateStats(peca){
+function updateStats(peca) {
   console.log(pecas[peca]);
 
-  stats.forEach( (element) => {
+  stats.forEach((element) => {
     element.textContent = parseInt(element.textContent) + pecas[peca][element.dataset.estatistica]
 
   })
