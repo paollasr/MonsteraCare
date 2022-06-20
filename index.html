@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg"/>
+  <title>Monsteira Lover</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap" rel="stylesheet">
+
+  </head>
+<body>
+  <main>
+      <section class="monsterita" id="monsterita">
+
+          <figcaption class="titulo">Monsteirita <br></figcaption>
+      </section>
+
+      <section class="box estatisticas">
+          <div class="estatistica">
+              <p class="estatistica-titulo">Force</p>
+              <div class="estatistica-valor">
+                  <p class="estatistica-numero" data-estatistica ="force">768</p>
+              </div>
+          </div>
+          <div class="estatistica">
+              <p class="estatistica-titulo">Power</p>
+              <div class="estatistica-valor">
+                  <p class="estatistica-numero" data-estatistica ="power">630</p>
+              </div>
+          </div>
+          <div class="estatistica">
+              <p class="estatistica-titulo">Energy</p>
+              <div class="estatistica-valor">
+                  <p class="estatistica-numero" data-estatistica ="energy">289</p>
+              </div>
+          </div>
+          <div class="estatistica">
+              <p class="estatistica-titulo">Grownth speed</p>
+              <div class="estatistica-valor">
+                  <p class="estatistica-numero" data-estatistica ="speed">597</p>
+              </div>
+          </div>
+      </section>
+
+      <section class="equipamentos">
+          <form action="" class="montador">
+              <div class="box montador-conteudo">
+                  <div class="peca">
+                      <label for="" class="peca-titulo">Sunlight</label>
+                      <div class="controle">
+                          <buttom class="controle-ajuste" data-controle="-" data-peca ="sunlight">-</buttom>
+                          <input type="text" class="controle-contador" value="00" data-contador>
+                          <buttom class="controle-ajuste" data-controle="+" data-peca ="sunlight">+</buttom>
+                      </div>
+                  </div>
+                  <hr class="linha">
+                  <div class="peca">
+                      <label for="" class="peca-titulo">Water</label>
+                      <div class="controle">
+                          <buttom class="controle-ajuste" data-controle="-" data-peca ="water">-</buttom>
+                          <input type="text" class="controle-contador" value="00" data-contador>
+                          <buttom class="controle-ajuste" data-controle="+" data-peca ="water">+</buttom>
+                      </div>
+                  </div>
+                  <hr class="linha">
+                  <div class="peca">
+                      <label for="" class="peca-titulo">Humidity</label>
+                      <div class="controle">
+                          <buttom class="controle-ajuste" data-controle="-" data-peca ="humidity">-</buttom>
+                         <input type="text" class="controle-contador" value="00" data-contador>
+                          <buttom class="controle-ajuste" data-controle="+" data-peca ="humidity">+</buttom>
+                      </div>
+                  </div>
+                  <hr class="linha">
+                  <div class="peca">
+                      <label for="" class="peca-titulo">Temperature</label>
+                      <div class="controle">
+                          <buttom class="controle-ajuste" data-controle="-" data-peca ="temperature">-</buttom>
+                          <input type="text" class="controle-contador" value="00" data-contador>
+                          <buttom class="controle-ajuste" data-controle="+" data-peca ="temperature">+</buttom>
+                      </div>
+                  </div>
+                  <hr class="linha">
+
+              </div>
+              <input type="submit" value="Iniciar produção" class="producao" id="producao">
+          </form>
+      </section>
+      <script src="main.js"></script>
+  </main>
+</body>
+</html>
