@@ -1,0 +1,1 @@
+#This project uses JavaScript to perform calculations and interacts with HTML elements.
