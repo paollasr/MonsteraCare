@@ -1,3 +1,5 @@
+//code needs to be reviewed
+
 const control = document.querySelectorAll("[data-controle]")
 const stats = document.querySelectorAll("[data-estatistica]")
 console.log(stats);
